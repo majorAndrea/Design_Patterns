@@ -70,6 +70,12 @@ const anotherReportForWeatherCondition = ({ temp, wind, uv }) => {
   `);
 }
 
+/*
+
+  Usage examples --->
+  
+*/
+
 newWeatherApp.onWeatherDataChange(reportWeatherCondition);
 newWeatherApp.onWeatherDataChange(anotherReportForWeatherCondition);
 
