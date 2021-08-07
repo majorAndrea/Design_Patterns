@@ -20,10 +20,6 @@ class Beverage {
 	cost() {
 		return 0.00;
 	}
-
-	test() {
-		console.log("OK");
-	}
 }
 
 /**
@@ -44,10 +40,6 @@ class CondimentDecorator extends Beverage {
 
 	getDescription() {
 		return this.description;
-	}
-
-	test2() {
-		console.log("OK 2")
 	}
 }
 
